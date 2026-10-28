@@ -78,7 +78,8 @@
     }
     @media (max-width: 560px) {
       .pub { grid-template-columns: 1fr; gap: 8px; }
-      .pub-thumb img { max-width: 360px; }
+      .pub-thumb { display: block; }
+      .pub-thumb img { max-width: 360px; margin: 0 auto; }
     }
 
     .footer { color: var(--muted); font-size: 0.85rem; margin-top: 10px; }
